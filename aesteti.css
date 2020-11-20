@@ -1,0 +1,38 @@
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+#div1 {
+    padding-top: 60px;
+  }
+  @media (max-width: 980px) {
+    body {
+      padding-top: 0;
+    }
+  }
+
+#div2 {
+    padding-top: 40px;
+  }
+  @media (max-width: 980px) {
+    body {
+      padding-top: 0;
+    }
+  }
+
+.navbar-brand
+{
+  font-size: 20px;
+}
+
+#hiddenOutput {
+  position: absolute;
+  opacity: .01;
+  height: 0;
+  overflow: hidden;
+}
